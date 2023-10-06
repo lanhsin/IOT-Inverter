@@ -5,7 +5,7 @@
 1. mkdir build
 2. cd build
 3. Release : cmake -DCMAKE_BUILD_TYPE=Release ..
-   Debug :   cmake -DCMAKE_BUILD_TYPE=Debug ..
+4. Debug :   cmake -DCMAKE_BUILD_TYPE=Debug ..
 
 ### Execution
 
