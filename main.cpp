@@ -133,12 +133,6 @@ int main(int argc, char **argv)
     else if (false == parse_args(argc, argv))
         return 0;
 
-    enum inv_brand brand = configs.get_inv_brand(0);
-    if (brand == DELTA_WIFI)
-        set_hostIP("enp1s0", "192.168.1.234", "255.255.255.0");
-    else if (brand == SMA)
-        set_hostIP("enp1s0", "192.168.0.234", "255.255.255.0");
-
     if (false == db.open("invdata.db"))
         return 0;
     for (unsigned int i = 0; i < configs.get_numOfInverter(); i++)

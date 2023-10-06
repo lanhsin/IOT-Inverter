@@ -4,28 +4,7 @@
 const unsigned int MAX_INV_NUM = 160;
 
 enum inv_brand {
-    SimDev       = 0,
-    SolarKing   = 1,
-    GoodWe      = 2,
-    PrimeVolt   = 3,
-    KACO        = 4,
-    EATON       = 5,
-    DELTA       = 6,
-    SMA         = 7,
-    GroWatt     = 8,
-    AEC         = 9,
-    Motech      = 10,
-    Ablerex     = 11,
-    HUAWEI      = 12,
-    ABB         = 14,
-    DELTA_WIFI  = 16,
-    TECO        = 17,
-    SolarEdge   = 18,
-    ALTENERGY   = 19,
-    SUNWAY      = 20,
-    CyberPower  = 21,
-    AISWEI      = 23,
-    SUNGROW     = 24
+    SimDev       = 0
 };
 
 struct inv_conf {

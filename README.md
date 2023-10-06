@@ -18,3 +18,7 @@
 1. cd build
 2. cp ../docs/solar.conf  .
 3. ./invIOT -T
+
+### Configuration File
+
+If change configuration file . 

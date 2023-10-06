@@ -11,7 +11,7 @@ bool inv_db::create(unsigned int table_index, unsigned char dc_number)
     sql.append( "Timestamp datetime NOT NULL, ");
     sql.append( "Status int, KWRating int, Temperature int,");
     sql.append( "Pac int, EToday int, ETotal int, HTotal int, ");
-    for (unsigned char i; i < dc_number; i++)
+    for (auto i = 0; i < dc_number; i++)
     {
         sql.append('D' + std::to_string(i) + "_Voltage int, " );
         sql.append('D' + std::to_string(i) + "_Current int, " );

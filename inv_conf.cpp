@@ -67,48 +67,6 @@ void Configs::dump(void)
 const char* inv_name(inv_brand invBrand)
 {
     switch (invBrand) {
-        case SolarKing:
-            return "POWERCOM";
-        case GoodWe:
-            return "GOODWE";
-        case PrimeVolt:
-            return "PrimeVOLT";
-        case KACO:
-            return "KACO";
-        case EATON:
-            return "EATON";
-        case DELTA:
-            return "DELTA";
-        case SMA:
-            return "SMA";
-        case GroWatt:
-            return "Growatt";
-        case AEC:
-            return "AEC";
-        case Motech:
-            return "MOTECH";
-        case Ablerex:
-            return "Ablerex";
-        case HUAWEI:
-            return "HUAWEI";
-        case ABB:
-            return "ABB";
-        case DELTA_WIFI:
-            return "DELTA_WIFI";
-        case TECO:
-            return "TECO";
-        case SolarEdge:
-            return "SolarEdge";
-        case ALTENERGY:
-            return "ALTENERGY";
-        case SUNWAY:
-            return "SUNWAY";
-        case CyberPower:
-            return "CyberPower";
-        case AISWEI:
-            return "AISWEI";
-        case SUNGROW:
-            return "SUNGROW";
         case SimDev:
             return  "SIMDEV";
         default:
