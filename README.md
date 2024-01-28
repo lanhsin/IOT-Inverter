@@ -1,24 +1,30 @@
 # IOT-Inverter
 
-### Build executable file
+Monitor simulation Inverters.  
+Read configuration file of inverters.  
+Read data from inverters. Write data to database.
+
+#### Build executable file
 
 1. mkdir build
 2. cd build
 3. Release : cmake -DCMAKE_BUILD_TYPE=Release ..
 4. Debug :   cmake -DCMAKE_BUILD_TYPE=Debug ..
+5. make
+6. cpack
 
-### Execution
+#### Execution
 
 1. cd build
 2. cp ../docs/solar.conf  .
 3. ./invIOT
 
-### Trace Mode
+#### Trace Mode
 
 1. cd build
 2. cp ../docs/solar.conf  .
 3. ./invIOT -T
 
-### Configuration File
+#### Configuration File
 
-If change configuration file . 
+If change configuration file, restart the execution file. 

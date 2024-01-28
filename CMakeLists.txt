@@ -46,3 +46,11 @@ target_include_directories(invIOT PUBLIC include)
 target_link_libraries(invIOT modbus pthread sqlite)
 
 install(TARGETS invIOT DESTINATION /usr/local/bin)
+
+set(CPACK_GENERATOR "DEB")
+set(CPACK_PACKAGE_VERSION_MAJOR ${INVIOT_MAJOR_VERSION})
+set(CPACK_PACKAGE_VERSION_MINOR ${INVIOT_MINOR_VERSION})
+set(CPACK_PACKAGE_VERSION_PATCH ${INVIOT_MICRO_VERSION})
+set(CPACK_DEBIAN_PACKAGE_NAME ${PROJECT_NAME})
+set(CPACK_PACKAGE_CONTACT "lanhsin.lin@gmail.com")
+include(CPack)
